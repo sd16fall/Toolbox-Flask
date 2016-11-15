@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>
+      A Small Hello
+    </title>
+  </head>
+<body>
+  <h1>Hi</h1>
+  <h2>Please Answer these questions</h2>
+  <form method="post">
+      <label for="title">Name</label>
+      <input type="text class="form-control" "name" name="name" value="{{request.form.name}}" >
+      <label for="title2">Age</label>
+      <input type="text class="form-control" "age" name="age" value="{{request.form.age}}" >
+      <label for="title3">Favorite Ninja</label>
+      <input type="text class="form-control" "favninja" name="faveninja" value="{{request.form.favninja}}" >
+      <input class="btn btn-default" type="submit" value="submit">
+  </form>
+</body>
+</html>
